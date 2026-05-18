@@ -1,0 +1,704 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Финансовый партнёр" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: ФП
+        - generic [ref=e6]: Финансовый партнёр
+      - navigation [ref=e7]:
+        - link "Тарифы" [ref=e8] [cursor=pointer]:
+          - /url: /tarify
+        - link "О компании" [ref=e9] [cursor=pointer]:
+          - /url: /o-kompanii
+        - link "Контакты" [ref=e10] [cursor=pointer]:
+          - /url: /kontakty
+      - generic [ref=e11]:
+        - link "+7 (343) 290-12-34" [ref=e12] [cursor=pointer]:
+          - /url: tel:+73432901234
+          - img [ref=e13]
+          - text: +7 (343) 290-12-34
+        - link "Консультация" [ref=e15] [cursor=pointer]:
+          - /url: "#lead-form"
+  - main [ref=e16]:
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]: Офис в Екатеринбурге · работаем по всей России
+        - 'heading "Финансовый партнёр: ведём ИП и ООО по всей России" [level=1] [ref=e25]':
+          - text: "Финансовый партнёр: ведём ИП и ООО"
+          - generic [ref=e26]: по всей России
+        - paragraph [ref=e28]: Персональный бухгалтер с офисом в Екатеринбурге. Один специалист на ваш бизнес, не колл-центр. Отвечаем в мессенджере в течение часа.
+        - generic [ref=e29]:
+          - link "Получить консультацию" [ref=e30] [cursor=pointer]:
+            - /url: "#lead-form"
+            - text: Получить консультацию
+            - img [ref=e31]
+          - link "Рассчитать стоимость" [ref=e33] [cursor=pointer]:
+            - /url: /tarify
+            - img [ref=e34]
+            - text: Рассчитать стоимость
+        - list [ref=e36]:
+          - listitem [ref=e37]:
+            - img [ref=e38]
+            - generic [ref=e41]: Офис в Екатеринбурге
+          - listitem [ref=e42]:
+            - img [ref=e43]
+            - generic [ref=e48]: 200+ клиентов
+          - listitem [ref=e49]:
+            - img [ref=e50]
+            - generic [ref=e53]: Отвечаем за час
+      - 'img "Заглушка изображения: Главный визуал Hero" [ref=e55]':
+        - img [ref=e56]
+        - generic [ref=e60]:
+          - generic [ref=e61]: Главный визуал Hero
+          - generic [ref=e62]: Фото бухгалтера за работой, тёплый кабинет, ноутбук, чай — атмосфера «партнёр, а не корпорация»
+          - generic [ref=e63]: ~720×900 px · 4:5
+    - generic [ref=e67]:
+      - generic [ref=e68]:
+        - heading "Почему выбирают нас" [level=2] [ref=e69]
+        - paragraph [ref=e70]: Шесть конкретных принципов работы, которые отличают нас от «оптовых» бухгалтерских компаний и одиночных фрилансеров.
+      - list [ref=e71]:
+        - listitem [ref=e72]:
+          - img [ref=e74]
+          - heading "Именной бухгалтер" [level=3] [ref=e78]
+          - paragraph [ref=e79]: Один специалист на ваш бизнес. Знает вас по имени, понимает специфику, не передаёт от менеджера к менеджеру.
+        - listitem [ref=e80]:
+          - img [ref=e82]
+          - heading "Отвечаем в течение часа" [level=3] [ref=e84]
+          - paragraph [ref=e85]: Telegram, WhatsApp, телефон — выбираете удобный канал. Не «в течение 3 рабочих дней», а сегодня.
+        - listitem [ref=e86]:
+          - img [ref=e88]
+          - heading "Гарантия и ответственность" [level=3] [ref=e90]
+          - paragraph [ref=e91]: Договор с юридической ответственностью. Если допустили ошибку — штраф ФНС покрываем мы.
+        - listitem [ref=e92]:
+          - img [ref=e94]
+          - heading "Офис + онлайн" [level=3] [ref=e97]
+          - paragraph [ref=e98]: Приедете в офис в Екатеринбурге или работаете удалённо. Подходит и местным, и клиентам из любого города.
+        - listitem [ref=e99]:
+          - img [ref=e101]
+          - heading "Цена не растёт «с бумажки»" [level=3] [ref=e104]
+          - paragraph [ref=e105]: Фиксированный тариф по операциям. Никаких надбавок за каждый запрос в чате или дополнительный документ.
+        - listitem [ref=e106]:
+          - img [ref=e108]
+          - heading "Предупреждаем о дедлайнах" [level=3] [ref=e111]
+          - paragraph [ref=e112]: Сами следим за датами сдачи отчётности, изменениями в законах и переходными периодами по налогам.
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - heading "Кому подходим" [level=2] [ref=e116]
+        - paragraph [ref=e117]: Шесть направлений бизнеса, в которых у нас есть отраслевая экспертиза. Выберите своё — расскажем подробнее.
+      - list [ref=e118]:
+        - listitem [ref=e119]:
+          - link "Для ИП УСН, ПСН, АУСН, НПД. С сотрудниками и без. Прозрачные тарифы от 2 000 ₽/мес. Подробнее" [ref=e120] [cursor=pointer]:
+            - /url: /uslugi/buhgalter-dlya-ip
+            - img [ref=e122]
+            - heading "Для ИП" [level=3] [ref=e125]
+            - paragraph [ref=e126]: УСН, ПСН, АУСН, НПД. С сотрудниками и без. Прозрачные тарифы от 2 000 ₽/мес.
+            - generic [ref=e127]:
+              - text: Подробнее
+              - img [ref=e128]
+        - listitem [ref=e130]:
+          - link "Для ООО УСН, ОСНО. Кадры, зарплата, налоговое планирование, сопровождение проверок. Подробнее" [ref=e131] [cursor=pointer]:
+            - /url: /uslugi/buhgalter-dlya-ooo
+            - img [ref=e133]
+            - heading "Для ООО" [level=3] [ref=e137]
+            - paragraph [ref=e138]: УСН, ОСНО. Кадры, зарплата, налоговое планирование, сопровождение проверок.
+            - generic [ref=e139]:
+              - text: Подробнее
+              - img [ref=e140]
+        - listitem [ref=e142]:
+          - link "Маркетплейсы Wildberries, Ozon, Яндекс.Маркет. Знаем агентские отношения и НДС с 60 млн. Подробнее" [ref=e143] [cursor=pointer]:
+            - /url: /uslugi/marketplaces
+            - img [ref=e145]
+            - heading "Маркетплейсы" [level=3] [ref=e148]
+            - paragraph [ref=e149]: Wildberries, Ozon, Яндекс.Маркет. Знаем агентские отношения и НДС с 60 млн.
+            - generic [ref=e150]:
+              - text: Подробнее
+              - img [ref=e151]
+        - listitem [ref=e153]:
+          - link "IT-компании Аккредитация, IT-льготы, валютные контракты, НИОКР. Понимаем специфику отрасли. Подробнее" [ref=e154] [cursor=pointer]:
+            - /url: /uslugi/it
+            - img [ref=e156]
+            - heading "IT-компании" [level=3] [ref=e159]
+            - paragraph [ref=e160]: Аккредитация, IT-льготы, валютные контракты, НИОКР. Понимаем специфику отрасли.
+            - generic [ref=e161]:
+              - text: Подробнее
+              - img [ref=e162]
+        - listitem [ref=e164]:
+          - link "Общепит и HoReCa ЕГАИС, кассы, маркировка, расчёт себестоимости блюд. Отраслевая экспертиза. Подробнее" [ref=e165] [cursor=pointer]:
+            - /url: /uslugi/obschepit
+            - img [ref=e167]
+            - heading "Общепит и HoReCa" [level=3] [ref=e172]
+            - paragraph [ref=e173]: ЕГАИС, кассы, маркировка, расчёт себестоимости блюд. Отраслевая экспертиза.
+            - generic [ref=e174]:
+              - text: Подробнее
+              - img [ref=e175]
+        - listitem [ref=e177]:
+          - link "Торговля и розница Маркировка, прослеживаемость, эквайринг, ОФД. Учёт от 30 до 1000+ операций в месяц. Подробнее" [ref=e178] [cursor=pointer]:
+            - /url: /uslugi/torgovlya
+            - img [ref=e180]
+            - heading "Торговля и розница" [level=3] [ref=e184]
+            - paragraph [ref=e185]: Маркировка, прослеживаемость, эквайринг, ОФД. Учёт от 30 до 1000+ операций в месяц.
+            - generic [ref=e186]:
+              - text: Подробнее
+              - img [ref=e187]
+    - generic [ref=e190]:
+      - generic [ref=e191]:
+        - generic [ref=e192]:
+          - heading "Что мы делаем" [level=2] [ref=e193]
+          - paragraph [ref=e194]: "Полный спектр бухгалтерских услуг — от постоянного ведения до разовых задач: восстановление учёта, нулевая отчётность, сопровождение проверок."
+        - link "Все услуги" [ref=e195] [cursor=pointer]:
+          - /url: /uslugi
+          - text: Все услуги
+          - img [ref=e196]
+      - list [ref=e198]:
+        - listitem [ref=e199]:
+          - link "Ведение бухгалтерии Полный учёт ИП и ООО на УСН, ОСНО, ПСН, АУСН" [ref=e200] [cursor=pointer]:
+            - /url: /tarify
+            - img [ref=e202]
+            - heading "Ведение бухгалтерии" [level=3] [ref=e204]
+            - paragraph [ref=e205]: Полный учёт ИП и ООО на УСН, ОСНО, ПСН, АУСН
+        - listitem [ref=e206]:
+          - link "Кадры и зарплата Трудовые договоры, расчёт зарплаты, КЭДО, отчётность" [ref=e207] [cursor=pointer]:
+            - /url: /tarify
+            - img [ref=e209]
+            - heading "Кадры и зарплата" [level=3] [ref=e214]
+            - paragraph [ref=e215]: Трудовые договоры, расчёт зарплаты, КЭДО, отчётность
+        - listitem [ref=e216]:
+          - link "Сдача отчётности ФНС, СФР, Росстат. Декларации, РСВ, 6-НДФЛ, ЕФС-1" [ref=e217] [cursor=pointer]:
+            - /url: /tarify
+            - img [ref=e219]
+            - heading "Сдача отчётности" [level=3] [ref=e223]
+            - paragraph [ref=e224]: ФНС, СФР, Росстат. Декларации, РСВ, 6-НДФЛ, ЕФС-1
+        - listitem [ref=e225]:
+          - link "Регистрация ИП / ООО Под ключ, без поездок в налоговую" [ref=e226] [cursor=pointer]:
+            - /url: /tarify
+            - img [ref=e228]
+            - heading "Регистрация ИП / ООО" [level=3] [ref=e231]
+            - paragraph [ref=e232]: Под ключ, без поездок в налоговую
+        - listitem [ref=e233]:
+          - link "Ликвидация ИП / ООО Полное сопровождение от заявления до исключения из ЕГРЮЛ" [ref=e234] [cursor=pointer]:
+            - /url: /tarify
+            - img [ref=e236]
+            - heading "Ликвидация ИП / ООО" [level=3] [ref=e241]
+            - paragraph [ref=e242]: Полное сопровождение от заявления до исключения из ЕГРЮЛ
+        - listitem [ref=e243]:
+          - link "Нулевая отчётность Для приостановленной деятельности — от 2 000 ₽/квартал" [ref=e244] [cursor=pointer]:
+            - /url: /uslugi/nulevaya-otchetnost
+            - img [ref=e246]
+            - heading "Нулевая отчётность" [level=3] [ref=e249]
+            - paragraph [ref=e250]: Для приостановленной деятельности — от 2 000 ₽/квартал
+        - listitem [ref=e251]:
+          - link "Восстановление учёта Если бухгалтер ушёл, ФНС блокирует, истёк период" [ref=e252] [cursor=pointer]:
+            - /url: /tarify
+            - img [ref=e254]
+            - heading "Восстановление учёта" [level=3] [ref=e259]
+            - paragraph [ref=e260]: Если бухгалтер ушёл, ФНС блокирует, истёк период
+        - listitem [ref=e261]:
+          - 'link "Налоговое планирование Законная оптимизация: УСН, льготы, переходы между режимами" [ref=e262] [cursor=pointer]':
+            - /url: /tarify
+            - img [ref=e264]
+            - heading "Налоговое планирование" [level=3] [ref=e266]
+            - paragraph [ref=e267]: "Законная оптимизация: УСН, льготы, переходы между режимами"
+        - listitem [ref=e268]:
+          - link "Сопровождение проверок Подготовка документов, представление интересов, переписка с ФНС" [ref=e269] [cursor=pointer]:
+            - /url: /tarify
+            - img [ref=e271]
+            - heading "Сопровождение проверок" [level=3] [ref=e274]
+            - paragraph [ref=e275]: Подготовка документов, представление интересов, переписка с ФНС
+        - listitem [ref=e276]:
+          - link "ВЭД и валютный контроль Импорт, экспорт, агентские договоры, валютные операции" [ref=e277] [cursor=pointer]:
+            - /url: /tarify
+            - img [ref=e279]
+            - heading "ВЭД и валютный контроль" [level=3] [ref=e282]
+            - paragraph [ref=e283]: Импорт, экспорт, агентские договоры, валютные операции
+        - listitem [ref=e284]:
+          - link "Маркетплейсы Wildberries, Ozon, Яндекс.Маркет — со знанием агентских отчётов" [ref=e285] [cursor=pointer]:
+            - /url: /tarify
+            - img [ref=e287]
+            - heading "Маркетплейсы" [level=3] [ref=e291]
+            - paragraph [ref=e292]: Wildberries, Ozon, Яндекс.Маркет — со знанием агентских отчётов
+        - listitem [ref=e293]:
+          - link "Маркировка и ЭДО Подключение, ведение, обучение сотрудников" [ref=e294] [cursor=pointer]:
+            - /url: /tarify
+            - img [ref=e296]
+            - heading "Маркировка и ЭДО" [level=3] [ref=e301]
+            - paragraph [ref=e302]: Подключение, ведение, обучение сотрудников
+        - listitem [ref=e303]:
+          - link "Консультации Часовые или письменные. По налогам, кадрам, договорам" [ref=e304] [cursor=pointer]:
+            - /url: /tarify
+            - img [ref=e306]
+            - heading "Консультации" [level=3] [ref=e309]
+            - paragraph [ref=e310]: Часовые или письменные. По налогам, кадрам, договорам
+    - generic [ref=e312]:
+      - generic [ref=e313]:
+        - heading "Прозрачные тарифы" [level=2] [ref=e314]
+        - paragraph [ref=e315]: Фиксированная стоимость в месяц. Без скрытых надбавок «по бумажке». Доплаты возможны только за специфику — они описаны ниже.
+      - list [ref=e316]:
+        - listitem [ref=e317]:
+          - generic [ref=e318]:
+            - generic [ref=e319]: СТАРТ
+            - paragraph [ref=e320]: ИП без сотрудников · НПД / УСН «Доходы» / ПСН · до 30 операций в месяц
+          - generic [ref=e321]:
+            - generic [ref=e322]:
+              - generic [ref=e323]: от
+              - generic [ref=e324]: 2 000 ₽
+            - generic [ref=e325]: ₽/мес
+          - list [ref=e326]:
+            - listitem [ref=e327]:
+              - img [ref=e329]
+              - generic [ref=e331]: Ведение КУДиР
+            - listitem [ref=e332]:
+              - img [ref=e334]
+              - generic [ref=e336]: Расчёт налогов и страховых взносов
+            - listitem [ref=e337]:
+              - img [ref=e339]
+              - generic [ref=e341]: Сдача декларации и отчётности
+            - listitem [ref=e342]:
+              - img [ref=e344]
+              - generic [ref=e346]: Консультации в мессенджере
+            - listitem [ref=e347]:
+              - img [ref=e349]
+              - generic [ref=e351]: Напоминания о дедлайнах
+          - link "Подключить «Старт»" [ref=e352] [cursor=pointer]:
+            - /url: "#lead-form"
+        - listitem [ref=e353]:
+          - generic [ref=e354]: Чаще всего выбирают
+          - generic [ref=e355]:
+            - generic [ref=e356]: БИЗНЕС
+            - paragraph [ref=e357]: ИП с сотрудниками · ООО на УСН · до 100 операций в месяц
+          - generic [ref=e358]:
+            - generic [ref=e359]:
+              - generic [ref=e360]: от
+              - generic [ref=e361]: 9 000 ₽
+            - generic [ref=e362]: ₽/мес
+          - list [ref=e363]:
+            - listitem [ref=e364]:
+              - img [ref=e366]
+              - generic [ref=e368]: Всё из тарифа «Старт»
+            - listitem [ref=e369]:
+              - img [ref=e371]
+              - generic [ref=e373]: Кадровый учёт (до 5 человек)
+            - listitem [ref=e374]:
+              - img [ref=e376]
+              - generic [ref=e378]: Расчёт зарплаты, страховых, НДФЛ
+            - listitem [ref=e379]:
+              - img [ref=e381]
+              - generic [ref=e383]: Кадровые документы и приказы
+            - listitem [ref=e384]:
+              - img [ref=e386]
+              - generic [ref=e388]: Приоритет в ответах
+            - listitem [ref=e389]:
+              - img [ref=e391]
+              - generic [ref=e393]: Именной бухгалтер закреплён за вами
+          - link "Подключить «Бизнес»" [ref=e394] [cursor=pointer]:
+            - /url: "#lead-form"
+        - listitem [ref=e395]:
+          - generic [ref=e396]:
+            - generic [ref=e397]: ПРЕМИУМ
+            - paragraph [ref=e398]: ООО на ОСНО · крупный ИП · ВЭД · маркетплейсы · производство
+          - generic [ref=e399]:
+            - generic [ref=e400]:
+              - generic [ref=e401]: от
+              - generic [ref=e402]: 25 000 ₽
+            - generic [ref=e403]: ₽/мес
+          - list [ref=e404]:
+            - listitem [ref=e405]:
+              - img [ref=e407]
+              - generic [ref=e409]: Всё из тарифа «Бизнес»
+            - listitem [ref=e410]:
+              - img [ref=e412]
+              - generic [ref=e414]: Налоговое планирование и оптимизация
+            - listitem [ref=e415]:
+              - img [ref=e417]
+              - generic [ref=e419]: Сопровождение запросов ФНС
+            - listitem [ref=e420]:
+              - img [ref=e422]
+              - generic [ref=e424]: Управленческая отчётность
+            - listitem [ref=e425]:
+              - img [ref=e427]
+              - generic [ref=e429]: Ежемесячная встреча (онлайн или в офисе)
+            - listitem [ref=e430]:
+              - img [ref=e432]
+              - generic [ref=e434]: Закреплён старший бухгалтер с опытом 10+ лет
+          - link "Обсудить «Премиум»" [ref=e435] [cursor=pointer]:
+            - /url: "#lead-form"
+      - generic [ref=e437]:
+        - generic [ref=e438]:
+          - heading "Возможные надбавки" [level=3] [ref=e439]
+          - paragraph [ref=e440]: Зависят от специфики бизнеса. Обсуждаются и фиксируются до подписания договора.
+        - list [ref=e441]:
+          - listitem [ref=e442]:
+            - generic [ref=e443]: Каждый дополнительный сотрудник
+            - generic [ref=e444]: +800 ₽/мес
+          - listitem [ref=e445]:
+            - generic [ref=e446]: Кассы и эквайринг
+            - generic [ref=e447]: +1 500 ₽/мес
+          - listitem [ref=e448]:
+            - generic [ref=e449]: Маркировка / прослеживаемость
+            - generic [ref=e450]: +2 000 ₽/мес
+          - listitem [ref=e451]:
+            - generic [ref=e452]: ВЭД-операции
+            - generic [ref=e453]: коэф. ×1.3
+          - listitem [ref=e454]:
+            - generic [ref=e455]: Маркетплейсы (WB, Ozon)
+            - generic [ref=e456]: +2 000–4 000 ₽/мес
+    - generic [ref=e458]:
+      - generic [ref=e459]:
+        - heading "Как мы начинаем работать" [level=2] [ref=e460]
+        - paragraph [ref=e461]: От первого сообщения до первого отчёта — обычно неделя. Никаких многостраничных опросников и звонков «уточнить детали».
+      - list [ref=e462]:
+        - listitem [ref=e463]:
+          - generic [ref=e464]:
+            - generic [ref=e465]: "01"
+            - img [ref=e468]
+          - generic [ref=e470]:
+            - heading "Заявка" [level=3] [ref=e471]
+            - paragraph [ref=e472]: Оставляете заявку или пишете в мессенджер. Отвечаем в течение часа.
+        - listitem [ref=e473]:
+          - generic [ref=e474]:
+            - generic [ref=e475]: "02"
+            - img [ref=e478]
+          - generic [ref=e480]:
+            - heading "Консультация" [level=3] [ref=e481]
+            - paragraph [ref=e482]: "Бесплатно: разбираем ваш бизнес, текущий учёт, подбираем тариф и закрепляем бухгалтера."
+        - listitem [ref=e483]:
+          - generic [ref=e484]:
+            - generic [ref=e485]: "03"
+            - img [ref=e488]
+          - generic [ref=e492]:
+            - heading "Договор" [level=3] [ref=e493]
+            - paragraph [ref=e494]: "Подписываем договор: ответственность, NDA, регламент работы. Можно онлайн через ЭДО."
+        - listitem [ref=e495]:
+          - generic [ref=e496]:
+            - generic [ref=e497]: "04"
+            - img [ref=e500]
+          - generic [ref=e502]:
+            - heading "Начинаем работать" [level=3] [ref=e503]
+            - paragraph [ref=e504]: Принимаем дела, настраиваем доступы, готовим первый отчёт. Вы — сосредотачиваетесь на бизнесе.
+    - list [ref=e507]:
+      - listitem [ref=e508]:
+        - generic [ref=e509]: 5+
+        - generic [ref=e510]: лет на рынке
+      - listitem [ref=e511]:
+        - generic [ref=e512]: 200+
+        - generic [ref=e513]: клиентов
+      - listitem [ref=e514]:
+        - generic [ref=e515]: 40+
+        - generic [ref=e516]: городов России
+      - listitem [ref=e517]:
+        - generic [ref=e518]: "12"
+        - generic [ref=e519]: специалистов в команде
+    - generic [ref=e521]:
+      - generic [ref=e522]:
+        - heading "Команда" [level=2] [ref=e523]
+        - paragraph [ref=e524]: За каждым клиентом закреплён именной бухгалтер. Никаких колл-центров и «следующего свободного оператора».
+      - list [ref=e525]:
+        - listitem [ref=e526]:
+          - 'img "Заглушка изображения: Портрет: Елена Сорокина" [ref=e527]':
+            - generic [ref=e528]: ЕС
+          - heading "Елена Сорокина" [level=3] [ref=e529]
+          - paragraph [ref=e530]: Руководитель, главный бухгалтер
+          - generic [ref=e531]: Опыт 18+ лет
+          - paragraph [ref=e532]: ОСНО, ВЭД, налоговые проверки
+        - listitem [ref=e533]:
+          - 'img "Заглушка изображения: Портрет: Ольга Радченко" [ref=e534]':
+            - generic [ref=e535]: ОР
+          - heading "Ольга Радченко" [level=3] [ref=e536]
+          - paragraph [ref=e537]: Старший бухгалтер
+          - generic [ref=e538]: Опыт 12+ лет
+          - paragraph [ref=e539]: УСН, ООО, маркетплейсы
+        - listitem [ref=e540]:
+          - 'img "Заглушка изображения: Портрет: Марина Гилёва" [ref=e541]':
+            - generic [ref=e542]: МГ
+          - heading "Марина Гилёва" [level=3] [ref=e543]
+          - paragraph [ref=e544]: Бухгалтер-кадровик
+          - generic [ref=e545]: Опыт 9+ лет
+          - paragraph [ref=e546]: Кадры, зарплата, КЭДО
+        - listitem [ref=e547]:
+          - 'img "Заглушка изображения: Портрет: Анна Кочергина" [ref=e548]':
+            - generic [ref=e549]: АК
+          - heading "Анна Кочергина" [level=3] [ref=e550]
+          - paragraph [ref=e551]: Бухгалтер
+          - generic [ref=e552]: Опыт 6+ лет
+          - paragraph [ref=e553]: ИП на УСН, ПСН, НПД
+    - generic [ref=e555]:
+      - generic [ref=e556]:
+        - heading "Кейсы клиентов" [level=2] [ref=e557]
+        - paragraph [ref=e558]: Три истории — что пришло, что сделали, какой результат в цифрах. Не маркетинговые сторителлинги, а конкретные ситуации.
+      - list [ref=e559]:
+        - listitem [ref=e560]:
+          - generic [ref=e561]:
+            - 'img "Заглушка изображения: Лого клиента: Селлер Wildberries · ИП на УСН" [ref=e562]':
+              - img [ref=e563]
+            - generic [ref=e567]: Селлер Wildberries · ИП на УСН
+          - generic [ref=e568]:
+            - generic [ref=e569]: Ситуация
+            - paragraph [ref=e570]: Самостоятельно вёл учёт, путал агентскую выручку с собственной. Не успел перейти на НДС при превышении 60 млн.
+          - generic [ref=e571]:
+            - generic [ref=e572]: Что сделали
+            - paragraph [ref=e573]: Восстановили учёт за 4 месяца, грамотно перешли на НДС, защитили от доначислений при камералке.
+          - generic [ref=e574]:
+            - generic [ref=e575]: Результат
+            - generic [ref=e576]: −340 000 ₽ переплаты по налогам
+        - listitem [ref=e577]:
+          - generic [ref=e578]:
+            - 'img "Заглушка изображения: Лого клиента: IT-компания · ООО на УСН" [ref=e579]':
+              - img [ref=e580]
+            - generic [ref=e584]: IT-компания · ООО на УСН
+          - generic [ref=e585]:
+            - generic [ref=e586]: Ситуация
+            - paragraph [ref=e587]: Бухгалтер уволился перед сдачей квартала. Параллельно подавали на IT-аккредитацию.
+          - generic [ref=e588]:
+            - generic [ref=e589]: Что сделали
+            - paragraph [ref=e590]: Подхватили дела за 5 рабочих дней, сдали квартал в срок, помогли пройти аккредитацию.
+          - generic [ref=e591]:
+            - generic [ref=e592]: Результат
+            - generic [ref=e593]: 0 штрафов за квартал
+        - listitem [ref=e594]:
+          - generic [ref=e595]:
+            - 'img "Заглушка изображения: Лого клиента: Сеть кофеен · ООО на ОСНО" [ref=e596]':
+              - img [ref=e597]
+            - generic [ref=e601]: Сеть кофеен · ООО на ОСНО
+          - generic [ref=e602]:
+            - generic [ref=e603]: Ситуация
+            - paragraph [ref=e604]: Пришло требование ФНС по НДС за прошлый год — старый бухгалтер не отвечал на запросы.
+          - generic [ref=e605]:
+            - generic [ref=e606]: Что сделали
+            - paragraph [ref=e607]: Сопроводили проверку, подготовили возражения, согласовали корректировки без штрафа.
+          - generic [ref=e608]:
+            - generic [ref=e609]: Результат
+            - generic [ref=e610]: Проверка закрыта без доначислений
+    - generic [ref=e612]:
+      - generic [ref=e613]:
+        - heading "Что говорят клиенты" [level=2] [ref=e614]
+        - paragraph [ref=e615]: Короткие отзывы тех, кто работает с нами больше года. Полные истории — в разделе «Кейсы».
+      - list [ref=e616]:
+        - listitem [ref=e617]:
+          - generic [ref=e618]: “
+          - blockquote [ref=e619]: Перешли с предыдущего бухгалтера в декабре, и впервые за два года я перестала переживать о квартальной отчётности. Отвечают в Telegram быстрее, чем мои поставщики.
+          - generic [ref=e620]:
+            - 'img "Заглушка изображения: Фото: Дарья Петренко" [ref=e621]':
+              - img [ref=e622]
+            - generic [ref=e626]:
+              - generic [ref=e627]: Дарья Петренко
+              - generic [ref=e628]: Основатель, Селлер Wildberries
+        - listitem [ref=e629]:
+          - generic [ref=e630]: “
+          - blockquote [ref=e631]: Подхватили дела за пять дней, когда наш бухгалтер уволилась перед сдачей квартала. Параллельно помогли пройти IT-аккредитацию. Без штрафов, без нервов.
+          - generic [ref=e632]:
+            - 'img "Заглушка изображения: Фото: Антон Семёнов" [ref=e633]':
+              - img [ref=e634]
+            - generic [ref=e638]:
+              - generic [ref=e639]: Антон Семёнов
+              - generic [ref=e640]: Директор, IT-компания на УСН
+        - listitem [ref=e641]:
+          - generic [ref=e642]: “
+          - blockquote [ref=e643]: Цена в счёте совпадает с ценой в договоре. Не было ни одного «а это дополнительно». Для общепита с маркировкой и кассами — большая редкость.
+          - generic [ref=e644]:
+            - 'img "Заглушка изображения: Фото: Михаил Зорин" [ref=e645]':
+              - img [ref=e646]
+            - generic [ref=e650]:
+              - generic [ref=e651]: Михаил Зорин
+              - generic [ref=e652]: Владелец, Сеть кофеен
+    - generic [ref=e655]:
+      - generic [ref=e656]:
+        - heading "Получить бесплатную консультацию" [level=2] [ref=e657]
+        - paragraph [ref=e658]: Заполните форму — расскажем, как мы будем работать именно с вашим бизнесом. Без шаблонных коммерческих предложений.
+        - list [ref=e659]:
+          - listitem [ref=e660]:
+            - img [ref=e662]
+            - generic [ref=e665]:
+              - generic [ref=e666]: Перезвоним в течение часа
+              - paragraph [ref=e667]: В рабочее время (пн–пт 9:00–19:00). Срочно — пишите в Telegram, ответим за 30 минут.
+          - listitem [ref=e668]:
+            - img [ref=e670]
+            - generic [ref=e672]:
+              - generic [ref=e673]: Разберём вашу ситуацию
+              - paragraph [ref=e674]: Бесплатно. Подберём тариф, обсудим переход, ответим на все вопросы по налогам и кадрам.
+          - listitem [ref=e675]:
+            - img [ref=e677]
+            - generic [ref=e679]:
+              - generic [ref=e680]: Без обязательств и спама
+              - paragraph [ref=e681]: Никаких звонков «через неделю узнать, не передумали ли вы». Один разговор — и тишина, если решите подумать.
+      - generic [ref=e683]:
+        - generic [ref=e684]:
+          - generic [ref=e686]: Как к вам обращаться
+          - textbox "Как к вам обращаться" [ref=e687]:
+            - /placeholder: Имя
+        - generic [ref=e688]:
+          - generic [ref=e690]: Телефон
+          - textbox "Телефон" [ref=e691]:
+            - /placeholder: +7 (___) ___-__-__
+        - generic [ref=e692]:
+          - generic [ref=e694]: Тип бизнеса
+          - combobox "Тип бизнеса" [ref=e695]:
+            - option "Выберите" [disabled] [selected]
+            - option "ИП"
+            - option "ООО"
+            - option "Самозанятый (НПД)"
+            - option "Планирую открыть"
+        - generic [ref=e696]:
+          - generic [ref=e697]:
+            - generic [ref=e698]: Кратко о задаче
+            - generic [ref=e699]: необязательно
+          - textbox "Кратко о задаче необязательно" [ref=e700]:
+            - /placeholder: "Например: ищу бухгалтера для нового ИП на УСН"
+        - generic [ref=e701] [cursor=pointer]:
+          - checkbox "Согласен с обработкой персональных данных в соответствии с политикой конфиденциальности." [ref=e702]
+          - generic [ref=e703]:
+            - text: Согласен с обработкой персональных данных в соответствии с
+            - link "политикой конфиденциальности" [ref=e704]:
+              - /url: /policy
+            - text: .
+        - button "Получить консультацию" [ref=e705]
+    - generic [ref=e708]:
+      - generic [ref=e709]:
+        - heading "Офис в Екатеринбурге" [level=2] [ref=e710]
+        - paragraph [ref=e711]: Приезжайте лично, чтобы обсудить дела за чашкой кофе. Или работайте онлайн из любого города — для большинства клиентов мы так и работаем.
+        - list [ref=e712]:
+          - listitem [ref=e713]:
+            - img [ref=e715]
+            - generic [ref=e718]:
+              - generic [ref=e719]: Адрес
+              - generic [ref=e720]: г. Екатеринбург, ул. Толмачёва, 33, оф. 412
+          - listitem [ref=e721]:
+            - img [ref=e723]
+            - generic [ref=e725]:
+              - generic [ref=e726]: Телефон
+              - link "+7 (343) 290-12-34" [ref=e727] [cursor=pointer]:
+                - /url: tel:+73432901234
+          - listitem [ref=e728]:
+            - img [ref=e730]
+            - generic [ref=e733]:
+              - generic [ref=e734]: Email
+              - link "hello@finpartner.ru" [ref=e735] [cursor=pointer]:
+                - /url: mailto:hello@finpartner.ru
+          - listitem [ref=e736]:
+            - img [ref=e738]
+            - generic [ref=e740]:
+              - generic [ref=e741]: Режим работы
+              - generic [ref=e742]: "Пн–Пт: 9:00–19:00"
+        - generic [ref=e743]:
+          - link "Написать в Telegram" [ref=e744] [cursor=pointer]:
+            - /url: https://t.me/finpartner_office
+          - link "WhatsApp" [ref=e745] [cursor=pointer]:
+            - /url: https://wa.me/73432901234
+      - generic [ref=e746]:
+        - generic [ref=e747]:
+          - img [ref=e749]
+          - generic [ref=e752]: Здесь будет Яндекс.Карта
+          - paragraph [ref=e753]: Карту подключим, когда получим финальные координаты офиса. Сейчас можно построить маршрут по адресу.
+        - link "Построить маршрут" [ref=e754] [cursor=pointer]:
+          - /url: https://yandex.ru/maps/54/yekaterinburg/?text=%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B1%D1%83%D1%80%D0%B3%2C%20%D1%83%D0%BB.%20%D0%A2%D0%BE%D0%BB%D0%BC%D0%B0%D1%87%D1%91%D0%B2%D0%B0%2C%2033
+          - img [ref=e755]
+          - text: Построить маршрут
+    - generic [ref=e759]:
+      - generic [ref=e760]:
+        - heading "Частые вопросы" [level=2] [ref=e761]
+        - paragraph [ref=e762]: Если ответа на ваш вопрос нет — напишите в Telegram, отвечаем в течение часа в рабочее время.
+      - generic [ref=e763]:
+        - heading "Я работаю не в Екатеринбурге. Вы сможете вести меня?" [level=3] [ref=e765]:
+          - button "Я работаю не в Екатеринбурге. Вы сможете вести меня?" [ref=e766]:
+            - text: Я работаю не в Екатеринбурге. Вы сможете вести меня?
+            - img [ref=e767]
+        - heading "Что если у нас уже есть бухгалтер, но мы хотим переехать к вам?" [level=3] [ref=e770]:
+          - button "Что если у нас уже есть бухгалтер, но мы хотим переехать к вам?" [ref=e771]:
+            - text: Что если у нас уже есть бухгалтер, но мы хотим переехать к вам?
+            - img [ref=e772]
+        - heading "Что входит в стоимость тарифа? Будут ли доплаты?" [level=3] [ref=e775]:
+          - button "Что входит в стоимость тарифа? Будут ли доплаты?" [ref=e776]:
+            - text: Что входит в стоимость тарифа? Будут ли доплаты?
+            - img [ref=e777]
+        - heading "Кто будет нести ответственность, если возникнут штрафы?" [level=3] [ref=e780]:
+          - button "Кто будет нести ответственность, если возникнут штрафы?" [ref=e781]:
+            - text: Кто будет нести ответственность, если возникнут штрафы?
+            - img [ref=e782]
+        - heading "Можно ли работать с самозанятыми (НПД)?" [level=3] [ref=e785]:
+          - button "Можно ли работать с самозанятыми (НПД)?" [ref=e786]:
+            - text: Можно ли работать с самозанятыми (НПД)?
+            - img [ref=e787]
+        - heading "Как быстро вы отвечаете в мессенджере?" [level=3] [ref=e790]:
+          - button "Как быстро вы отвечаете в мессенджере?" [ref=e791]:
+            - text: Как быстро вы отвечаете в мессенджере?
+            - img [ref=e792]
+        - heading "А если у меня сейчас «всё запущено» — несколько лет без учёта?" [level=3] [ref=e795]:
+          - button "А если у меня сейчас «всё запущено» — несколько лет без учёта?" [ref=e796]:
+            - text: А если у меня сейчас «всё запущено» — несколько лет без учёта?
+            - img [ref=e797]
+  - contentinfo [ref=e799]:
+    - generic [ref=e800]:
+      - generic [ref=e801]:
+        - generic [ref=e802]:
+          - link "ФП Финансовый партнёр" [ref=e803] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e804]: ФП
+            - generic [ref=e805]: Финансовый партнёр
+          - paragraph [ref=e806]: Персональный бухгалтер с офисом в Екатеринбурге. Один специалист на ваш бизнес, не колл-центр. Ведём ИП и ООО по всей России.
+          - generic [ref=e807]:
+            - link "+7 (343) 290-12-34" [ref=e808] [cursor=pointer]:
+              - /url: tel:+73432901234
+            - link "hello@finpartner.ru" [ref=e809] [cursor=pointer]:
+              - /url: mailto:hello@finpartner.ru
+            - generic [ref=e810]: "Пн–Пт: 9:00–19:00"
+        - generic [ref=e811]:
+          - heading "Услуги" [level=4] [ref=e812]
+          - list [ref=e813]:
+            - listitem [ref=e814]:
+              - link "Бухгалтер для ИП" [ref=e815] [cursor=pointer]:
+                - /url: /uslugi/buhgalter-dlya-ip
+            - listitem [ref=e816]:
+              - link "Бухгалтер для ООО" [ref=e817] [cursor=pointer]:
+                - /url: /uslugi/buhgalter-dlya-ooo
+            - listitem [ref=e818]:
+              - link "Нулевая отчётность" [ref=e819] [cursor=pointer]:
+                - /url: /uslugi/nulevaya-otchetnost
+            - listitem [ref=e820]:
+              - link "Восстановление учёта" [ref=e821] [cursor=pointer]:
+                - /url: /uslugi/vosstanovlenie-ucheta
+            - listitem [ref=e822]:
+              - link "Маркетплейсы" [ref=e823] [cursor=pointer]:
+                - /url: /uslugi/marketplaces
+            - listitem [ref=e824]:
+              - link "Регистрация ИП/ООО" [ref=e825] [cursor=pointer]:
+                - /url: /uslugi/registratsiya
+        - generic [ref=e826]:
+          - heading "Компания" [level=4] [ref=e827]
+          - list [ref=e828]:
+            - listitem [ref=e829]:
+              - link "О нас" [ref=e830] [cursor=pointer]:
+                - /url: /o-kompanii
+            - listitem [ref=e831]:
+              - link "Тарифы" [ref=e832] [cursor=pointer]:
+                - /url: /tarify
+            - listitem [ref=e833]:
+              - link "Кейсы" [ref=e834] [cursor=pointer]:
+                - /url: /keysy
+            - listitem [ref=e835]:
+              - link "Блог" [ref=e836] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=e837]:
+              - link "Контакты" [ref=e838] [cursor=pointer]:
+                - /url: /kontakty
+        - generic [ref=e839]:
+          - heading "Документы" [level=4] [ref=e840]
+          - list [ref=e841]:
+            - listitem [ref=e842]:
+              - link "Политика конфиденциальности" [ref=e843] [cursor=pointer]:
+                - /url: /policy
+            - listitem [ref=e844]:
+              - link "Согласие на обработку ПД" [ref=e845] [cursor=pointer]:
+                - /url: /consent
+            - listitem [ref=e846]:
+              - link "Публичная оферта" [ref=e847] [cursor=pointer]:
+                - /url: /offer
+      - generic [ref=e848]:
+        - generic [ref=e849]:
+          - link "Telegram" [ref=e850] [cursor=pointer]:
+            - /url: https://t.me/finpartner_office
+          - link "WhatsApp" [ref=e851] [cursor=pointer]:
+            - /url: https://wa.me/73432901234
+          - link "ВКонтакте" [ref=e852] [cursor=pointer]:
+            - /url: https://vk.com/finpartner_ekb
+        - generic [ref=e853]: г. Екатеринбург, ул. Толмачёва, 33, оф. 412
+      - generic [ref=e854]:
+        - generic [ref=e855]: ООО «Финансовый партнёр» · ИНН 6671234567 · ОГРН 1216600012345
+        - generic [ref=e856]: © 2026 Финансовый партнёр. Информация на сайте не является публичной офертой. Все цены ориентировочны.
