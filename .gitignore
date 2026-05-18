@@ -1,0 +1,70 @@
+# === System ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === IDEs / Editors ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# === Logs and temp files ===
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+logs/
+playwright-report/
+test-results/
+
+# === Playwright MCP (local browser sessions) ===
+.playwright-mcp/
+playwright-mcp/
+*.playwright-mcp.yml
+
+# === Claude Code (personal / local) ===
+.claude/agent-memory/
+.claude/plans/
+.claude/skills/tavily/.env
+.claude/settings.local.json
+.claude/mcp.json        # может содержать локальные пути и ключи
+.claude/skills/ssh-connect/.env
+.claude/skills/proxy/.env
+
+# === Environment files ===
+.env
+.env.local
+.env.*.local
+
+# === Node / NPM (global, though site/ has its own) ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# === Build outputs (global) ===
+dist/
+build/
+out/
+.next/
+
+# === Сгенерированные репорты / аудиты ===
+audit-*.png
+*.png   # только если это снимки, которые не должны в репозитории, иначе исключите по шаблону
+# но если вы специально коммитите скриншоты (например, audit-01-hero-desktop.png), 
+# то лучше не добавлять *.png, а перечислить конкретные папки или убрать эту строку.
+
+# === Другое ===
+*.bak
+*.orig
+*.sqlite
+*.db
+# Claude Code (полностью игнорировать всю папку, если вы не храните в ней конфиги, нужные команде)
+.claude/
+
+# Сгенерированный репормикс
+repomix-output.xml
