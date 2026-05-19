@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@theme {
+  /* ===== Brand palette: "Warm Professionalism" ===== */
+  --color-brand-50:  #F0F7F2;
+  --color-brand-100: #DCEDE2;
+  --color-brand-200: #BADCC6;
+  --color-brand-300: #8FC4A2;
+  --color-brand-400: #5FA67B;
+  --color-brand-500: #3D8A5E;
+  --color-brand-600: #2C6E48;
+  --color-brand-700: #1A4731;
+  --color-brand-800: #143626;
+  --color-brand-900: #0E251A;
+  --color-brand-950: #06120D;
+
+  --color-accent-50:  #FEF8EC;
+  --color-accent-100: #FDEBC4;
+  --color-accent-200: #FBD589;
+  --color-accent-300: #F8BA50;
+  --color-accent-400: #F5A623;
+  --color-accent-500: #D88A11;
+  --color-accent-600: #B0680F;
+  --color-accent-700: #834C10;
+  --color-accent-800: #5D3811;
+  --color-accent-900: #3C2510;
+
+  --color-cream: #FAFAF7;
+  --color-ink:   #1C1C1E;
+  --color-muted: #6B6B70;
+  --color-line:  #E8E7E1;
+  --color-danger: #C53030;
+
+  /* ===== Typography ===== */
+  --font-sans: var(--font-inter), system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display: var(--font-manrope), var(--font-inter), system-ui, sans-serif;
+
+  /* ===== Radii ===== */
+  --radius-button: 0.75rem;
+  --radius-card:   1rem;
+  --radius-hero:   1.5rem;
+
+  /* ===== Animations ===== */
+  --default-transition-duration: 200ms;
+  --default-transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --animate-accordion-down: accordion-down 220ms cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-accordion-up:   accordion-up   180ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  @keyframes accordion-down {
+    from { height: 0; }
+    to   { height: var(--radix-accordion-content-height); }
+  }
+  @keyframes accordion-up {
+    from { height: var(--radix-accordion-content-height); }
+    to   { height: 0; }
+  }
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-feature-settings: "cv11", "ss01", "ss03";
+    line-height: 1.6;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    color: var(--color-ink);
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+  }
+
+  ::selection {
+    background-color: var(--color-brand-700);
+    color: var(--color-cream);
+  }
+
+  /* Focus visible — accessible outline */
+  :focus-visible {
+    outline: 2px solid var(--color-brand-700);
+    outline-offset: 2px;
+    border-radius: 0.25rem;
+  }
+}
+
+@layer utilities {
+  .container-page {
+    width: 100%;
+    margin-inline: auto;
+    padding-inline: 1rem;
+    max-width: 1280px;
+  }
+
+  @media (min-width: 768px) {
+    .container-page {
+      padding-inline: 2rem;
+    }
+  }
+
+  .section {
+    padding-block: 4rem;
+  }
+
+  @media (min-width: 768px) {
+    .section {
+      padding-block: 6rem;
+    }
+  }
+}
