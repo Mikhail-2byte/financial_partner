@@ -73,17 +73,14 @@ export function ContactBlockSection() {
           </div>
 
           <div className="flex flex-col gap-4">
-            <div className="aspect-[4/3] rounded-2xl bg-brand-50 border-2 border-dashed border-line flex flex-col items-center justify-center text-center p-8">
-              <div className="size-14 rounded-full bg-white text-brand-700 flex items-center justify-center mb-4 shadow-sm">
-                <MapPin className="size-7" />
-              </div>
-              <div className="font-display font-bold text-lg mb-1">
-                Здесь будет Яндекс.Карта
-              </div>
-              <p className="text-sm text-muted max-w-xs">
-                Карту подключим, когда получим финальные координаты офиса.
-                Сейчас можно построить маршрут по адресу.
-              </p>
+            <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-line bg-cream shadow-sm">
+              <iframe
+                src={contacts.yandexMapEmbed}
+                title="Карта: офис «Финансовый партнёр» в Екатеринбурге"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full h-full block border-0"
+              />
             </div>
             <Button variant="primary" size="md" asChild className="self-start">
               <a

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -16,6 +16,20 @@ const navLinks = [
 
 export function Header() {
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    if (!open) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const handleKey = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setOpen(false);
+    };
+    window.addEventListener("keydown", handleKey);
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", handleKey);
+    };
+  }, [open]);
 
   return (
     <header className="sticky top-0 z-40 bg-cream/85 backdrop-blur-md border-b border-line">
@@ -60,6 +74,7 @@ export function Header() {
             type="button"
             aria-label={open ? "Закрыть меню" : "Открыть меню"}
             aria-expanded={open}
+            aria-controls="mobile-nav"
             className="lg:hidden p-2 -mr-2"
             onClick={() => setOpen((v) => !v)}
           >
@@ -68,10 +83,21 @@ export function Header() {
         </div>
       </Container>
 
+      {/* Backdrop под drawer — закрывает по клику вне */}
+      {open && (
+        <button
+          type="button"
+          aria-label="Закрыть меню"
+          onClick={() => setOpen(false)}
+          className="lg:hidden fixed inset-x-0 top-16 md:top-20 bottom-0 z-30 bg-ink/30 backdrop-blur-[2px]"
+        />
+      )}
+
       {/* Mobile drawer */}
       <div
+        id="mobile-nav"
         className={cn(
-          "lg:hidden border-t border-line bg-cream overflow-hidden transition-[max-height] duration-300 ease-out",
+          "lg:hidden relative z-40 border-t border-line bg-cream overflow-hidden transition-[max-height] duration-300 ease-out",
           open ? "max-h-[480px]" : "max-h-0",
         )}
       >

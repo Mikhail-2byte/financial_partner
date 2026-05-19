@@ -27,7 +27,7 @@
 
   --color-cream: #FAFAF7;
   --color-ink:   #1C1C1E;
-  --color-muted: #6B6B70;
+  --color-muted: #5A5A60;
   --color-line:  #E8E7E1;
   --color-danger: #C53030;
 
@@ -106,10 +106,16 @@
   }
 
   .section {
-    padding-block: 4rem;
+    padding-block: 3.5rem;
   }
 
   @media (min-width: 768px) {
+    .section {
+      padding-block: 5rem;
+    }
+  }
+
+  @media (min-width: 1024px) {
     .section {
       padding-block: 6rem;
     }
