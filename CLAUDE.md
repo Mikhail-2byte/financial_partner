@@ -81,6 +81,26 @@ Current content files (15):
 - **Tone**: no corporate clichés ("динамично развивающаяся компания", "индивидуальный подход", "команда профессионалов"), no exclamation marks in headlines, no banking-jargon. Concrete numbers and timelines instead.
 - **Color**: stick to the brand/accent scales defined in `@theme`. Don't introduce blue — the whole positioning is explicitly an escape from the "blue corporate" look every competitor uses.
 
+### Design tooling available in this repo
+
+Use these when building or refining UI — they are installed and tailored to this project:
+
+- **`frontend-design` skill** — invoke before writing any new section/component. Forces deliberate typography/color/motion instead of default AI output.
+- **`ui-ux-pro-max` skill** — invoke for design-system decisions, picking a style/layout, or a pre-launch UI quality pass. It can suggest shadcn components — ignore that suggestion here (see hand-written-primitives rule above).
+- **Magic MCP (`/ui ...`)** — for scaffolding a standard marketing block (hero/pricing/testimonials) fast. Always refactor the output into the existing `cva` + Radix primitive pattern and the brand palette before committing — raw Magic output uses generic styling.
+- **Chrome DevTools MCP** — after `npm run dev`, screenshot `http://localhost:3000`, read console/network, measure LCP. Use it for visual iteration (screenshot → compare → fix, ≥2 rounds) and to catch runtime errors.
+- **context7 MCP** — add `use context7` to any prompt touching Next 16 / React 19 / Tailwind 4 APIs; the model's built-in knowledge of these versions is stale.
+
+### Anti-generic design checklist (project-specific)
+
+The brand deliberately escapes the generic-AI / blue-corporate look. When generating UI, hold to these — they override any tool's default aesthetic:
+
+- **Fonts**: ONLY Manrope (display/H1–H4, weight 700–800) + Inter (body). Inter-for-body is an intentional brand choice here — do not "replace Inter" per generic advice, and do not introduce a third font or fall back to a system stack for headings.
+- **Color**: warm green `#1A4731` (brand-700) + amber `#F5A623` (accent-400) on cream `#FAFAF7` background, text `ink #1C1C1E` (never pure `#000`). No blue, no purple gradients, no neon. Tokens live in `@theme` in `globals.css` — use those, not raw hex in components.
+- **Radii**: buttons `rounded-xl`, cards `rounded-2xl`, inputs `rounded-lg`, hero images `rounded-3xl`. Shadows: cards `shadow-sm`→hover `shadow-md`.
+- **No**: stock "businessmen in suits", 3D/cartoon illustrations, exclamation marks in headlines, corporate clichés. Use concrete numbers/timelines and real team/office photos.
+- **Motion**: framer-motion, 200ms `easeOut`, restrained (scroll-reveal, button hover-lift). No random micro-interactions.
+
 ## Deployment notes
 
 The site cannot be deployed to Vercel. Hosting target is Russian (TimeWeb Cloud / Selectel) to meet 152-ФЗ requirements for personal data processed by the lead form. Keep this in mind for any deployment-related code (no Vercel-only APIs, no edge runtime assumptions tied to Vercel infrastructure).
